@@ -1,0 +1,48 @@
+body {
+
+  background-color: #E5E5E5;
+  
+
+}
+
+header {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.text-center {
+  margin-left: 620px;
+
+  font-family: 'Roboto';
+
+}
+
+.buttons {
+
+  width: 317px;
+  height: 102px;
+  margin-top: 182px;
+  margin-left: 728px;
+  font-family: 'Inter' sans-serif;
+  font-size: 16px;
+  
+}
+
+.play {
+  border-radius: 24px;
+  border-color: darkblue;
+  width: 317px;
+  height: 102px;
+  background-color: darkblue;
+  color: white;
+  margin-bottom: 32px;
+}
+
+.add {
+
+  border-radius: 24px;
+  width: 317px;
+  height: 102px;
+  color: darkblue;
+
+}
