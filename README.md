@@ -4,7 +4,7 @@
 
 ### Sprint 02: Crie seu próprio jogo da forca com Javascript
 
-#### GitHub Pages - Acesse: 
+#### GitHub Pages - Acesse: [Jogo da forca](https://tiagomerc.github.io/Challenge-Sprint-2---Crie-seu-pr-prio-jogo-da-forca-com-Javascript/)
 
 ## Prints
 
