@@ -1,0 +1,87 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+
+#logo { /* # para identificador*/
+  width: 120px;
+  height: 48px;
+  margin: 24px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.tab {
+
+  margin-left: 600px; 
+  color: darkblue;
+} 
+
+.buttons {
+  width: 312px;
+  height: 60px;
+ 
+}
+
+.new {
+  background-color: darkblue;
+  border-radius: 24px;
+  border-style: 32px 67px;
+  float: left;
+  font-size: 16px;
+  width: 332px;
+  height: 67px;
+  color: white;
+  border-color: #0A3871;
+  font-weight: bold;
+} 
+
+.game-over {
+  background-color: #D8DFE8;
+  border-radius: 24px;
+  border-style: 32px 67px;
+  margin-left: 342px;
+  margin-top: -66px;
+  float: left;
+  font-size: 16px;
+  width: 332px;
+  height: 67px;
+  color:#0A3871;
+  border-color: #0A3871;
+  font-weight: bold;
+}
+
+ul {
+  padding-left: 144px;
+  padding-right: 124px;
+  list-style: none; /**tirar as bolinhas **/
+  display: flex;
+  gap: 1.45rem;/** Espaço entre os icones**/ 
+
+}
+
+.image-footer {
+  width: 24px;
+}
+
+.ref {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+  font-size: 18px;
+  margin-top: 25px;
+
+  border-style:groove;
+  margin-left: -5px;
+  padding-right: 612px;
+  background-color: white;
+}
+
+footer {
+  margin-top: 12px;
+  margin-left: 750px;
+  text-align: center;
+}
+

@@ -11,3 +11,6 @@
 ![Página index](/imgs/prints/print.png)
 
 ![Página começar jogo](/imgs/prints/print1.png)
+
+![Página tabuleiro](/imgs/prints/print2.png)
+

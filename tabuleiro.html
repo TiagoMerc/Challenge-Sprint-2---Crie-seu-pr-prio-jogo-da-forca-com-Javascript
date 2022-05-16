@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="CSS/comecar_jogar.css">
+        <link rel="stylesheet" href="CSS/tabuleiro.css">
         <title>Começar a jogar</title>
       </head>
 
@@ -23,19 +23,21 @@
     </nav>
     <!--Fim da imagem de logo-->
 
+    <!--Tabuleiro-->
+
+    <canvas width="1200" height="600"></canvas>
+
+    <!--Fim do tabuleiro-->
     <!-- Entrada dos textos -->
 
-      <div  class="text">
-          <textarea name="Texto" id="text" cols="24" rows="12" autofocus placeholder="Digite uma palavra ou frase"></textarea>
-            <img id="infor" src="imgs/info-fill.png" alt="">
-              <p id="parag">Máx. de 8 letras</p>
-
+      <div  class="tab">
+                
               <div class="buttons">
                 <a href="tabuleiro.html">
-                <button class="save">Salvar e começar</button>
+                <button class="new">Novo jogo</button>
                 </a>
                 <a href="index.html">
-                  <button class="cancel">Cancelar</button>
+                  <button class="game-over">Desistir</button>
                 </a>
               </div>    
       </div>
@@ -64,6 +66,6 @@
 
 
     <!-- Script JavaScript-->
-    <script src="JS/script.js"></script>
+    <script src="JS/tabuleiro.js"></script>
     </body>
   </html>
