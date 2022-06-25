@@ -14,3 +14,5 @@
 
 ![Página tabuleiro](/imgs/prints/print2.png)
 
+![Interação no canvas](/imgs/prints/print3.png)
+
