@@ -16,3 +16,6 @@
 
 ![Interação no canvas](/imgs/prints/print3.png)
 
+![Forca](/imgs/prints/print4.png)
+
+

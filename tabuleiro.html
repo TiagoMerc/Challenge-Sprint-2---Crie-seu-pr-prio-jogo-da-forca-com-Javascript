@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<!--PUXAR FONTE DO PROTOTIPO-->
         <link rel="stylesheet" href="CSS/tabuleiro.css">
         <title>Começar a jogar</title>
       </head>
@@ -26,8 +27,13 @@
 
     <!--Tabuleiro-->
 
-    <canvas id="forca" width="1200" height="860"></canvas>
+    <canvas id="forca" class="forca" width="1200" height="860">
+        
+    </canvas>
 
+    <div div="palavra_correta" >
+      <p>Palavras corretas: </p>
+    </div>
     <!--Fim do tabuleiro-->
     <!-- Entrada dos textos -->
 
@@ -66,5 +72,6 @@
 
     <!-- Script JavaScript-->
     <script src="JS/tabuleiro.js"></script>
+    <script src="canvas.js"></script>
     </body>
   </html>

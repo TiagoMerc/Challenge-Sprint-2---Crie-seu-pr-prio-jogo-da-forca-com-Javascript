@@ -9,6 +9,7 @@
 
   <!--Título-->
   <link rel="stylesheet" href="CSS/style.css">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 
 <!--Logo da Alura-->
@@ -18,19 +19,80 @@
   alt="Logo Alura">
   </a>
 </header>
-
 <body>
-  <h1 class="text-center">Jogo da forca - Sprint 02 ONE + Alura</h1>
+  <main>
+  
+    <!--inicio -->
+    <div id="inicio" class="tela">
 
-  <main class="buttons">
-    <a href="tabuleiro.html">
-      <button class="play" 
-        >Começar a jogar </button>
-    </a>
-    <a href="comeca_jogar.html">
-    <button class="add">Adicionar nova palavra</button>
-  </a>
+      <div>
+        <button class="btn btn1" id="btn-iniciar">Começar a jogar</button>
+      </div>
+      <div>
+        <button class="btn btn2" id="inserir-palavra">
+          Adicionar nova palavra
+        </button>
+      </div>
+    </div>
+    <h3>Challenge Oracle + Alura</h3>
+    <!-- inserindo  uma nova palavra -->
+
+    <div id="in-palavra" class="tela2 oculta">
+      <div>
+        <textarea
+        type="text"
+          name="palavra"
+          id="palavra"
+          cols="40"
+          rows="9"
+          placeholder="Digite uma palavra ou frase"
+        ></textarea>
+      </div>
+      <div id="insert">
+        <div id="info">
+          <img src="./assets/info.svg "  class="info"   alt="simbolo de exclamação!">
+          <label for="info"> Maximo de 8 Letras</label>
+        </div>
+        
+        <button class="btn btn3" id="gravar" >Salvar e começar</button>
+        <button class="btn btn4" id="cancelar"  >Cancelar</button>
+      </div>
+    </div>
+    
+    <div id="jogo" class="tela3 oculta">
+      <div>
+      
+        <canvas id="forca" height="400px" width="980px"></canvas>
+      </div>
+
+      <h3>Palavras digitadas</h3>
+      <div class="New-Over">
+        <button class="btn btn5" id="novo-jogo">Novo Jogo</button>
+        <button class="btn btn6" id="desistir">Desistir</button>
+      </div>
+    </div>
   </main>
-
+  <footer >
+    <div class="social grid">
+      <a
+        href="www.linkedin.com/in/tiago-mercês-rosário"
+        target="_blank"
+      >
+        <i class="icon-linkedin"></i>
+      </a>
+      <a href="https://github.com/TiagoMerc" target="_blank"
+        ><i class="icon-github"></i>
+      </a>
+    </div>
+    <div class="brand">
+      <p>Desenvolvido por Tiago Mercês</p>
+    </div>
+  </footer>
+  <script src="JS/script.js"></script>
+  <script src="JS/canvas.js"></script>
+  <script src="JS/iniciarJogo.js"></script>
+  <script src="JS/mostrarLetra.js"></script>
+  <script src="JS/validacao.js"></script>
+  <script src="JS/vitoriaDerrota.js"></script>
 </body>
 </html>

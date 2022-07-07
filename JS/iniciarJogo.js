@@ -1,22 +1,64 @@
-/* 
-var input = document.querySelector('input');
+function iniciarJogo() {
 
-if(input.value == ) {
-
-  livE CODE
-  https://www.youtube.com/watch?v=WDfwRE-WUE4
+  pincel.lineWidth = 3
+  pincel.strokeStyle = '#0A3871'
   
+  pincel.beginPath()
+  pincel.moveTo(150, 300)
+  pincel.lineTo(250, 300)
+  pincel.stroke()
+
+  contador = 0
+  contadorLetraError = 0
+  listandoLetras = []
+  vencedor = false
+  plvEmJogo = []
+
+  let numero = Math.floor(Math.random() * listaDePalavras.length)
+  jogarPlv = listaDePalavras[numero].toUpperCase().split('')
+  for (let i = 0; i < jogarPlv.length; i++) {
+    pincel.moveTo(300 + 60 * i, 300)
+    pincel.lineTo(350 + 60 * i, 300)
+    pincel.stroke()
+  }
 }
-<script>
 
-  
 
-</script> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ANTIGA
+/* 
 
 //Seletores e variáveis 
 
 var palavras = ['ALURA', 'ORACLE', 'HTML', 'JAVASCRIPT', 'CSS'];
 var tabuleiro = document.getElementById('forca').getContext('2d');
+/* var comeca = document.getElementById('text').getContext('2d');
+ */
+
+/* 
 var letras = [];
 var palavraCorreta = "";
 var erros = 9;
@@ -80,6 +122,7 @@ function verificarLetraCorreta(key) {
 }
 
 function adicionarLetraCorreta(i){
+  document.getElementById("#palavra_correta")
   palavraCorreta += palavraSecreta[i].toUpperCase();
 }
 
@@ -87,6 +130,7 @@ function adicionarLetraIncorreta(letter){
   if(palavraSecreta.indexOf(letter) <= 0){
     erros -=1;
   }
+
 }
 
 document.onkeydown = (e) => {
@@ -107,3 +151,8 @@ document.onkeydown = (e) => {
     }
   }
 };
+ */
+/* function recebendoPalavraSecreta(){
+  palavraSecreta = text;
+
+}recebendoPalavraSecreta(text); */

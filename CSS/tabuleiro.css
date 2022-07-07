@@ -79,6 +79,20 @@ ul {
   background-color: white;
 }
 
+
+
+#forca {
+  margin-left: 10em;
+}
+
+#palavra_correta, p{
+  margin-left: 840px;
+  display: flex;
+  font-size: 24px;
+  color: red;
+  font-weight: bold;
+}
+
 footer {
   margin-top: 12px;
   margin-left: 750px;
