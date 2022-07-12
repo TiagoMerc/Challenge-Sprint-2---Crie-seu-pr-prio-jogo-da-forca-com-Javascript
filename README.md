@@ -18,4 +18,8 @@
 
 ![Forca](/imgs/prints/print4.png)
 
+![Você venceu](/imgs/prints/print5.png)
+
+![Você perdeu](/imgs/prints/print6.png)
+
 

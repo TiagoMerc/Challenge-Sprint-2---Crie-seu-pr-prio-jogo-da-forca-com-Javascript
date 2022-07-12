@@ -76,9 +76,11 @@ desistir.addEventListener('click', () => {
 novoJogo.addEventListener('click', () => {
   iniciarJogo()
   flag = true
+  location.reload();
 })
 
 window.addEventListener('keydown', element => {
+
   if (flag && validandoLetra(element.key) && contador < 9) {
     if (!listandoLetras.includes(element.key.toUpperCase())) {
       listandoLetras.push(element.key.toUpperCase())
@@ -94,6 +96,7 @@ window.addEventListener('keydown', element => {
       )
     }
   } else if (contador >= 9) {
+  
     derrota()
     swal(
       'Você errou!',

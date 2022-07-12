@@ -1,9 +1,9 @@
 function iniciarJogo() {
-
-  pincel.lineWidth = 3
+ 
+  pincel.lineWidth = 6
   pincel.strokeStyle = '#0A3871'
-  
   pincel.beginPath()
+  pincel.moveTo(0, 0)
   pincel.moveTo(150, 300)
   pincel.lineTo(250, 300)
   pincel.stroke()

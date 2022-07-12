@@ -4,11 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <title>Jogo da forca ONE+Alura</title> 
 
   <!--Título-->
   <link rel="stylesheet" href="CSS/style.css">
+<!--   <link rel="stylesheet" href="CSS/comecar_jogar.css"> -->
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 
@@ -50,7 +51,7 @@
       </div>
       <div id="insert">
         <div id="info">
-          <img src="./assets/info.svg "  class="info"   alt="simbolo de exclamação!">
+          <img src="imgs/info.svg"  class="info"   alt="simbolo de exclamação!">
           <label for="info"> Maximo de 8 Letras</label>
         </div>
         
@@ -60,34 +61,35 @@
     </div>
     
     <div id="jogo" class="tela3 oculta">
+
       <div>
-      
-        <canvas id="forca" height="400px" width="980px"></canvas>
+          <canvas id="forca" height="400px" width="980px"></canvas>
       </div>
 
-      <h3>Palavras digitadas</h3>
+      <h3 id="word">Palavras digitadas</h3>
       <div class="New-Over">
         <button class="btn btn5" id="novo-jogo">Novo Jogo</button>
         <button class="btn btn6" id="desistir">Desistir</button>
       </div>
     </div>
   </main>
-  <footer >
-    <div class="social grid">
-      <a
-        href="www.linkedin.com/in/tiago-mercês-rosário"
-        target="_blank"
-      >
-        <i class="icon-linkedin"></i>
-      </a>
-      <a href="https://github.com/TiagoMerc" target="_blank"
-        ><i class="icon-github"></i>
-      </a>
+<!-- Rodape / Referencias -->
+    <div class="ref">
+      <footer>
+       <strong>Desenvolvido por:</strong> Tiago Mercês Rosário
+          <br />
+          <ul>
+            <a
+              target="_blanck"
+              href="https://www.linkedin.com/in/tiago-merc%C3%AAs-ros%C3%A1rio-b6177b85"
+                ><img class="image-footer" src="imgs/linkedIn.png" alt="Ícone do LinkedIn"></a
+                  > 
+                    <a target="_blanck" href="https://github.com/TiagoMerc"><img class="image-footer"src="imgs/github.png" alt="Ícone do GitHub"></a>
+          </ul>
+       </footer>
     </div>
-    <div class="brand">
-      <p>Desenvolvido por Tiago Mercês</p>
-    </div>
-  </footer>
+    <!-- Fim do rodape / Referencias -->
+
   <script src="JS/script.js"></script>
   <script src="JS/canvas.js"></script>
   <script src="JS/iniciarJogo.js"></script>
